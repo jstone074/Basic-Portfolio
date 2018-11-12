@@ -6,6 +6,8 @@ body {
   background-image:url(../images/Untitled.jpg);
   background-size: cover;
   font-family:  'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
 p{
@@ -19,36 +21,27 @@ img {
 }
 
 header{
-  top: 0;
-  width: 100%;
-  height:50px;
-  background-color: #fff; 
-  position: absolute; 
-  left:0;
-  right:0;
-  margin: 0;
+	height:50px;
+	background-color: #fff; 
+
 }
 
 #top-box{
-  width: 960px;
-  height: auto;
-  margin-left: auto;
-  margin-right: auto;
-  position: absolute;
-  left:0;
-  right:0;  
-  background-color: #fff;
-
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #name{
-  height: 25px;
-  width: 100px;
+	height: 50px; 
+  line-height: 50px; 
   background-color: #4aaaa5;
-  padding: 12.5px;
-  color: #fff;
-  float:left;
-  
+	padding-top: 0; 
+	padding-bottom: 0; 
+	padding-left: 12px; 
+	padding-right: 12px;
+	color: #fff;
+	float:left;
 }
 
   #about{
@@ -77,9 +70,7 @@ header{
     top:10px;
     position: relative;
 
-    
-
-}
+  }
 
   #contact{
     width: 50px;
@@ -92,11 +83,10 @@ header{
 }
 
 .container {
-    width: 960px;
+		margin-top: 50px;
+	  width: 960px;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 100px;
-    padding: 100 px;
     height: auto;
     background-color: white;
 }
@@ -198,7 +188,6 @@ input[type=submit] {
   width: 940px;
   height: auto;
   margin-left: 10px;
-  background-color: black;
 
 }
 
@@ -206,43 +195,58 @@ input[type=submit] {
   width: 940px;
   height: auto;
   margin-left: 10px;
-  background-color: red;
+
 }
 
 #row-3{
   width: 940px;
   height: auto;
   margin-left: 10px;
-  background-color:blue;
+
 }
 
 .box {
-  width: 150px;
-  height: 150px;
-  background: #2db34a;
-  border: 2px solid black;
+  width: 250px;
+  height: 200px;
+  border: 1px solid black;
   float: left;
+}
+
+.rectangle{
+  width: 250px;
+  height:auto;
+  background:#4aaaa5;
+  color: #fff;
+  text-align: center;
+  margin-top: 60%;
+  
 }
 
 .box-1 {
   position: relative;
+  background-image: url(../images/puppy.jpg);
 
 }
 
 .box-2 {
   position: relative;
+  background-image: url(../images/city.jpg);
+
 }
 
 .box-3 {
   position: relative;
+  background-image: url(../images/lights.jpg);
 }
 
 .box-4 {
   position: relative;
+  background-image: url(../images/street.jpg);
 }
 
 .box-5 {
   position: relative;
+  background-image: url(../images/tiger.jpg)
 }
 
 .clearfix::after {
