@@ -37,11 +37,94 @@ body {
     float:left;
     padding: 10px;
 }
+
+header{
+  top: 0;
+  width: 100%;
+  height:50px;
+  background-color: #fff; 
+  position: absolute; 
+  left:0;
+  right:0;
+  margin: 0;
+}
+
+#top-box{
+  width: 960px;
+  height: auto;
+  margin-left: auto;
+  margin-right: auto;
+  position: absolute;
+  left:0;
+  right:0;  
+  background-color: #fff;
+
+}
+
+#name{
+  height: 25px;
+  width: 100px;
+  background-color: #4aaaa5;
+  padding: 12.5px;
+  color: #fff;
+  float:left;
+  /* text-align: center; */
+  /* position: relative; */
+    
+}
+
+  #about{
+    height: 15px;
+    width: auto;
+    background-color: #fff;
+    padding: 7.5px;
+    float: right;
+    border-right-width: 1px;
+    border-color: black;
+    border-right-style: solid;
+    top:10px;
+    position: relative;
+
+}
+
+  #portfolio {
+    height: 15px;
+    width: auto;
+    background-color: #fff;
+    padding: 7.5px;
+    float: right;
+    border-right-width: 1px;
+    border-color: black;
+    border-right-style: solid;
+    top:10px;
+    position: relative;
+
+    
+
+}
+
+  #contact{
+    width: 50px;
+    background-color: #fff;
+    padding: 7.5px;
+    float: right;
+    top:10px;
+    position: relative;
+
+}
   
+  body {
+    background-image:url(../images/Untitled.jpg);
+    background-size: cover;
+}
+
   .container {
-    width: 1024px;
-    margin:auto;
-    padding: 20 px;
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 100px;
+    padding: 100 px;
+    height: auto;
     background-color: white;
 }
 
@@ -62,9 +145,9 @@ body {
 
   #tealbox {
     width: 100%;
-    height: 20px;
+    height: 40px;
     bottom: 0;
-    position: relative;
+    position: fixed;
     left:0;
     right:0;
     margin: 0;
@@ -88,19 +171,53 @@ body {
   }
   
   #about-me  {
-    width: 1024px;
+    width: 940px;
     background: white;
     border-bottom-style: solid;
     border-width: 5px;
     border-color: black;
     color: teal;
+    margin-right: 10px;
+    margin-left: 10px;
   }
   
-  #about-text{
-    width: 1024px;
-    height: 200px;
+  #contact-box{
+    width: 940px;
+    height: auto;
     margin-right: 20px;
+    margin-left:10px;
+    margin-top: 20px;
+    padding-bottom: 20px;
     word-break: keep-all;
 }
 
+
+  #about-text{
+    width: 940px;
+    height: auto;
+    margin-right: 20px;
+    margin-left:10px;
+    padding-bottom: 20px;
+    word-break: keep-all;
+}
+
+input[type=text], select, textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+input[type=submit] {
+  background-color: #4aaaa5;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
   
